@@ -1,0 +1,2 @@
+# HMUIScrollViewBugfix
+別画面のも一緒にスクロールしてしまう問題を解決するMod
