@@ -5,7 +5,7 @@ using UnityEngine;
 namespace HMUIScrollViewBugfix.Pathces
 {
     [HarmonyPatch(typeof(ScrollView), "contentSize", MethodType.Getter)]
-    internal class ScrollViewget_contentSizePatch
+    internal class ScrollViewPatch
     {
         public static bool Prefix(RectTransform ____contentRectTransform, ref float __result)
         {
